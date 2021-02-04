@@ -16,18 +16,18 @@
         }
     ],
     "require": {
-        "php": ">=7.3.0,<7.5.0",
-        "doctrine/common": "^2.6",
-        "doctrine/dbal": "^2.5",
+        "php": "^7.3|^8.0",
+        "doctrine/common": "^2.6|^3.0",
+        "doctrine/dbal": "^2.10|^3.0",
         "doctrine/migrations": "^2.2",
         "doctrine/orm": "^2.5",
         "psr/container": "^1.0.0"
     },
     "require-dev": {
-        "doctrine/coding-standard": "^7.0",
-        "phpunit/phpunit": "^8.5",
-        "psalm/plugin-phpunit": "^0.9.0",
-        "vimeo/psalm": "^3.8"
+        "doctrine/coding-standard": "^7.0|^8.0",
+        "phpunit/phpunit": "^8.5|^9.0",
+        "psalm/plugin-phpunit": "^0.15",
+        "vimeo/psalm": "^3.8|^4.0"
     },
     "autoload": {
         "psr-4": {
